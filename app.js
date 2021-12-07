@@ -99,7 +99,15 @@ console.log(actors);
 //----------------------------------------------------------------------------------------------
     // filter failed student marks less than 35
     
-    const failed = student
+    const failed = students.filter((student)=>{
+        if (student.marks<=35){
+            return true;
+        } else{
+            return false; 
+        }
+    });
+
+    console.log(failed);
 
 
 //----------------------------------------------------------------------------------------------
