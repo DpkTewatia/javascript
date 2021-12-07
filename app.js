@@ -45,8 +45,16 @@ console.log(actors.length);
 //----------------------------------------------------------------------------------------------
     //for each loop
 
+    actors.forEach((actor)=> {
+        console.log(actor);
 
+    })
 
+//to deduct 10 rs using for each loop
+    actors.forEach((actor)=> {
+       actor.payment=actor.payment-10;
+    })
+console.log(actors);
 
 
 //----------------------------------------------------------------------------------------------
