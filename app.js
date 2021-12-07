@@ -71,8 +71,36 @@ console.log(actors);
     console.log(actors);
 
 //----------------------------------------------------------------------------------------------
+    //filter
+
+    const students =[
+        {
+            firstname:"deepak",
+            marks: 82
+        },
+        {
+            firstname:"ravi",
+            marks: 23
+        },
+        {
+            firstname:"sanju",
+            marks: 95
+        },
+        {
+            firstname:"sunil",
+            marks: 35
+        }
+    ]
+
+    students.filter((student)=>{
+        console.log(student);
+    })
 
 //----------------------------------------------------------------------------------------------
+    // filter failed student marks less than 35
+    
+    const failed = student
+
 
 //----------------------------------------------------------------------------------------------
 
