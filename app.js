@@ -58,6 +58,17 @@ console.log(actors);
 
 
 //----------------------------------------------------------------------------------------------
+    //for of loop
+    for(let actor of actors) {
+        console.log(actor);
+    }
+
+    // to deduct 10 rs using for of loop
+    for(let actor of actors) {
+        actor.payment=actor.payment-10;
+        
+    }
+    console.log(actors);
 
 //----------------------------------------------------------------------------------------------
 
